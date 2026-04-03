@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Emvalore</title>
+  <!-- Redirect to main.html after 3 seconds -->
+  <meta http-equiv="refresh" content="3;url=Images/main.html">
+  <style>
+    /* Center everything */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #ffffff; /* You can change background color */
+      font-family: Arial, sans-serif;
+    }
+
+    /* Logo animation */
+    .logo {
+      max-width: 150px; /* smaller logo */
+      height: auto;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+
+    /* Brand name under logo */
+    .brand-name {
+      position: absolute;
+      bottom: 50px;
+      font-size: 24px;
+      color: #333333; /* You can change text color */
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Logo -->
+  <img src="Images/logo.png" alt="Emvalore Logo" class="logo">
+  <!-- Brand Name -->
+  <div class="brand-name">Emvalore</div>
+</body>
+</html>

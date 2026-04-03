@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emvalore | Empowering Institutions</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- AOS Library for Scroll Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <style>
+    body { font-family: 'Montserrat', sans-serif; }
+
+    /* Hero Gradient */
+    .gradient-hero { background: linear-gradient(135deg, #0B3D91, #1A73E8); }
+    /* Section Backgrounds */
+    .section-bg { background: linear-gradient(135deg, #E0F7FA, #FFFDE7); }
+    .gradient-services { background: linear-gradient(135deg, #E0F7FA, #FFF3E0); }
+
+    /* Hover Zoom Effect */
+    .hover-zoom:hover { transform: scale(1.05); transition: transform 0.3s; }
+
+    /* Floating Shapes */
+    .floating-shape {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.15;
+      animation: float 15s linear infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-50px) rotate(180deg); }
+      100% { transform: translateY(0px) rotate(360deg); }
+    }
+
+    /* Custom Colors */
+    .bg-gold { background-color: #FFC300; }
+    .text-navy { color: #0B3D91; }
+  </style>
+</head>
+<body class="text-gray-900 relative overflow-x-hidden">
+   </div>
+
+  <!-- Hero Section -->
+  <header class="relative gradient-hero text-white min-h-screen flex items-center overflow-hidden">
+    <!-- Floating Shapes -->
+    <div class="floating-shape w-48 h-48 bg-yellow-400 top-20 left-10"></div>
+    <div class="floating-shape w-32 h-32 bg-blue-500 top-60 right-20"></div>
+    <div class="floating-shape w-40 h-40 bg-yellow-300 top-1/4 left-1/2"></div>
+
+    <div class="container mx-auto px-6 text-center z-10">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4" data-aos="fade-up" data-aos-duration="1500">
+        Empowering Institutions with World-Class Web Solutions
+      </h1>
+      <p class="text-xl md:text-2xl mb-8" data-aos="fade-up" data-aos-duration="2000">
+        We provide professional digital strategies, branding, and online visibility to elevate your organization's online presence.
+      </p>
+      <a href="#contact" class="bg-gold text-navy font-semibold px-6 py-3 rounded-lg hover:bg-yellow-500 transition transform hover:scale-105" data-aos="zoom-in" data-aos-duration="2000">
+        Consult with Us
+      </a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="section-bg py-20" data-aos="fade-up" data-aos-duration="1500">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">About Emvalore</h2>
+      <p class="max-w-3xl mx-auto text-lg">At Emvalore, we empower institutions with high-value digital solutions that attract and retain engagement. Our mission is to provide premium, innovative web solutions to help organizations thrive online.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="py-20 gradient-services" data-aos="fade-up" data-aos-duration="1500">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <!-- Service 1 -->
+        <div class="p-6 bg-white rounded-xl shadow-lg hover-zoom" data-aos="fade-up" data-aos-duration="1500">
+          <h3 class="text-xl font-semibold mb-4">Branding & Online Visibility</h3>
+          <p>We help institutions create strong, professional digital identities that stand out and attract attention.</p>
+        </div>
+        <!-- Service 2 -->
+        <div class="p-6 bg-white rounded-xl shadow-lg hover-zoom" data-aos="fade-up" data-aos-duration="1800">
+          <h3 class="text-xl font-semibold mb-4">Custom Web Solutions</h3>
+          <p>We develop websites and platforms tailored to your organization’s unique needs and goals.</p>
+        </div>
+        <!-- Service 3 -->
+        <div class="p-6 bg-white rounded-xl shadow-lg hover-zoom" data-aos="fade-up" data-aos-duration="2100">
+          <h3 class="text-xl font-semibold mb-4">Digital Strategy Consulting</h3>
+          <p>Our consulting services guide institutions to maximize online impact and improve their digital presence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="py-20 section-bg" data-aos="fade-up" data-aos-duration="1500">
+  <div class="container mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">Portfolio</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Project 1 -->
+      <a href="#" target="_blank">
+        <div class="flex items-center justify-center h-40 bg-blue-600 rounded-lg mb-4">
+  <img src="logo.png" class="w-16 h-16">
+</div>
+          <h3 class="font-semibold text-lg mb-2">Institutional Web Platform</h3>
+          <p class="text-sm text-gray-600">
+            A modern, responsive website built to enhance institutional visibility and engagement online.
+          </p>
+        </div>
+      </a>
+
+      <!-- Project 2 -->
+      <a href="#" target="_blank">
+        <div class="flex items-center justify-center h-40 bg-yellow-400 rounded-lg mb-4">
+  <img src="logo.png" class="w-16 h-16">
+</div>
+          <h3 class="font-semibold text-lg mb-2">Brand Identity Upgrade</h3>
+          <p class="text-sm text-gray-600">
+            Developed a strong digital branding structure to improve recognition and online authority.
+          </p>
+        </div>
+      </a>
+
+      <!-- Project 3 -->
+      <a href="#" target="_blank">
+       <div class="flex items-center justify-center h-40 bg-gradient-to-r from-blue-500 to-yellow-400 rounded-lg mb-4">
+  <img src="logo.png" class="w-16 h-16">
+</div> 
+          <h3 class="font-semibold text-lg mb-2">High-Converting Landing Page</h3>
+          <p class="text-sm text-gray-600">
+            Designed a conversion-focused landing page to attract and turn visitors into high-value clients.
+          </p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gradient-to-r from-blue-200 to-yellow-200" data-aos="fade-up" data-aos-duration="1500">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12">Contact Us</h2>
+      <form class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-lg grid gap-6">
+        <input type="text" placeholder="Name" class="border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
+        <input type="email" placeholder="Email" class="border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
+        <input type="text" placeholder="Institution / Company" class="border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
+        <textarea placeholder="Message" class="border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+        <button type="submit" class="bg-navy text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition transform hover:scale-105">Partner With Us</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="py-6 text-center bg-gray-900 text-white">
+    © 2026 Emvalore. All Rights Reserved.
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- WhatsApp Button -->
+<a href="https://wa.me/2349034464282" target="_blank"
+   class="fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition z-50">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+       viewBox="0 0 24 24" stroke="currentColor">
+    <path fill="currentColor"
+      d="M12 0C5.372 0 0 5.373 0 12c0 2.115.553 4.1 1.52 5.82L0 24l6.337-1.655A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm.058 21.857c-1.932 0-3.815-.518-5.45-1.498l-.39-.231-3.76.983 1.004-3.666-.254-.378a9.857 9.857 0 01-1.504-5.267c0-5.457 4.44-9.897 9.897-9.897 2.64 0 5.122 1.028 6.99 2.896a9.807 9.807 0 012.907 6.98c-.002 5.457-4.442 9.898-9.94 9.898zm5.438-7.438c-.297-.149-1.758-.867-2.03-.966-.273-.099-.472-.148-.67.149-.198.297-.768.966-.941 1.164-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.476-.883-.788-1.479-1.76-1.652-2.057-.173-.297-.018-.458.13-.607.134-.133.297-.347.446-.52.149-.173.198-.297.297-.495.099-.198.05-.371-.025-.52-.074-.149-.67-1.611-.917-2.206-.242-.58-.487-.502-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.793.371-.273.297-1.04 1.016-1.04 2.479s1.065 2.877 1.214 3.075c.149.198 2.095 3.2 5.076 4.487.709.306 1.26.488 1.69.625.71.226 1.356.194 1.867.118.569-.085 1.758-.718 2.006-1.412.248-.694.248-1.289.173-1.412-.074-.124-.273-.198-.57-.347z"/>
+  </svg>
+</a>
+
+</body>
+</html>
